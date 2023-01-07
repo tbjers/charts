@@ -1,5 +1,7 @@
 # Helm charts
 
+[![pre-commit.ci status](https://results.pre-commit.ci/badge/github/tbjers/charts/main.svg)](https://results.pre-commit.ci/latest/github/tbjers/charts/main)
+
 ## Add repository
 
 ``` sh
