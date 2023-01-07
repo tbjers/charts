@@ -19,7 +19,7 @@ helm install my-release tbjers/go-vanity
 
 | Name | Email | Url |
 | ---- | ------ | --- |
-| Torgny Bjers | <torgny@bjers.org> | <https://github.com/tbjers> |
+| tbjers | <torgny@bjers.org> | <github.com/tbjers> |
 
 ## Values
 

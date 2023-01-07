@@ -7,5 +7,5 @@ version: 0.1.1
 appVersion: "0.1.0"
 maintainers:
   - email: "torgny@bjers.org"
-    name: Torgny Bjers
-    url: https://github.com/tbjers
+    name: tbjers
+    url: github.com/tbjers
