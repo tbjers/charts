@@ -6,7 +6,7 @@
 replicaCount: 1
 
 image:
-  repository: tbjers/go-vanity
+  repository: ghcr.io/tbjers/go-vanity
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: ""
