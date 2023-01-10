@@ -4,7 +4,7 @@ name: go-vanity
 description: Vanity URL caddy server for Go packages.
 type: application
 version: 0.1.1
-appVersion: "0.1.0"
+appVersion: "v0.1.0"
 maintainers:
   - email: "torgny@bjers.org"
     name: tbjers
