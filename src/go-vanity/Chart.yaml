@@ -3,9 +3,10 @@ apiVersion: v2
 name: go-vanity
 description: Vanity URL caddy server for Go packages.
 type: application
-version: 0.1.0
-appVersion: "0.1.0"
+version: 0.1.1
+appVersion: "v0.1.0"
+icon: "https://caddyserver.com/resources/images/caddy-circle-lock.svg"
 maintainers:
   - email: "torgny@bjers.org"
-    name: Torgny Bjers
-    url: https://github.com/tbjers
+    name: tbjers
+    url: github.com/tbjers

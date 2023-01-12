@@ -3,8 +3,8 @@
 Vanity URL caddy server for Go packages.
 
 ![Type: application](https://img.shields.io/badge/Type-application-informational?style=flat-square)
-![Version: 0.1.0](https://img.shields.io/badge/Version-0.1.0-informational?style=flat-square)
-![AppVersion: 0.1.0](https://img.shields.io/badge/AppVersion-0.1.0-informational?style=flat-square)
+![Version: 0.1.1](https://img.shields.io/badge/Version-0.1.1-informational?style=flat-square)
+![AppVersion: v0.1.0](https://img.shields.io/badge/AppVersion-v0.1.0-informational?style=flat-square)
 
 ## Installing the Chart
 
@@ -19,7 +19,7 @@ helm install my-release tbjers/go-vanity
 
 | Name | Email | Url |
 | ---- | ------ | --- |
-| Torgny Bjers | <torgny@bjers.org> | <https://github.com/tbjers> |
+| tbjers | <torgny@bjers.org> | <github.com/tbjers> |
 
 ## Values
 
@@ -32,7 +32,7 @@ helm install my-release tbjers/go-vanity
 | autoscaling.targetCPUUtilizationPercentage | int | `80` |  |
 | fullnameOverride | string | `""` |  |
 | image.pullPolicy | string | `"IfNotPresent"` |  |
-| image.repository | string | `"tbjers/go-vanity"` |  |
+| image.repository | string | `"ghcr.io/tbjers/go-vanity"` |  |
 | image.tag | string | `""` |  |
 | imagePullSecrets | list | `[]` |  |
 | ingress.annotations | object | `{}` |  |
@@ -49,12 +49,15 @@ helm install my-release tbjers/go-vanity
 | replicaCount | int | `1` |  |
 | resources | object | `{}` |  |
 | securityContext | object | `{}` |  |
-| service.port | int | `80` |  |
+| service.port | int | `2015` |  |
 | service.type | string | `"ClusterIP"` |  |
 | serviceAccount.annotations | object | `{}` |  |
 | serviceAccount.create | bool | `true` |  |
 | serviceAccount.name | string | `""` |  |
 | tolerations | list | `[]` |  |
+| vanity.domain | string | `""` |  |
+| vanity.gitBranch | string | `""` |  |
+| vanity.gitOrg | string | `""` |  |
 
 ## License
 
