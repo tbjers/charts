@@ -15,6 +15,11 @@ imagePullSecrets: []
 nameOverride: ""
 fullnameOverride: ""
 
+vanity:
+  domain: ""
+  gitOrg: ""
+  gitBranch: ""
+
 serviceAccount:
   # Specifies whether a service account should be created
   create: true

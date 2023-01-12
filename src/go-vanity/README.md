@@ -55,6 +55,9 @@ helm install my-release tbjers/go-vanity
 | serviceAccount.create | bool | `true` |  |
 | serviceAccount.name | string | `""` |  |
 | tolerations | list | `[]` |  |
+| vanity.domain | string | `""` |  |
+| vanity.gitBranch | string | `""` |  |
+| vanity.gitOrg | string | `""` |  |
 
 ## License
 

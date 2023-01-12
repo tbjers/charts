@@ -2,4 +2,5 @@
 remote: origin
 chart-dirs:
   - src
-helm-extra-args: --timeout 600s
+helm-extra-args: --timeout 120s
+helm-extra-set-args: "--set vanity.domain=vanity-go.local,vanity.gitOrg=example,vanity.gitBranch=main"
