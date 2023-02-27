@@ -46,7 +46,7 @@ repos:
       - id: shellcheck
 
   - repo: https://github.com/gitguardian/ggshield
-    rev: v1.14.2
+    rev: v1.14.4
     hooks:
       - id: ggshield
         language_version: python3
