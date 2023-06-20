@@ -5,7 +5,7 @@
 ## Add repository
 
 ``` sh
-helm repo add tbjers https://tbjers.github.io/charts
+helm repo add tbjers https://charts.bjers.org
 ```
 
 ## Install chart
